@@ -1,0 +1,94 @@
+/***** FONTS *****/
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../fonts/BebasNeue.otf);
+}
+/***** END FONTS *****/
+
+
+/***** BASE *****/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #fff;
+	font-family: "Droid Serif", serif;
+	font-size: 38px;
+}
+
+h2 {
+	color: #fff;
+	font-family: "Caviar Dreams";
+	font-style: 36px;
+}
+
+.section-title {
+	color: red;
+	font-family: "Bebas Neue";
+	font-size: 36;
+}
+
+.section-title + p {
+	color: orange;
+	font-family: "Caviar Dreams";
+	font-style: 26px;
+}
+/***** END BASE *****/
+
+
+/***** LAYOUT *****/
+header,
+.footer,
+section
+{
+	padding: 0 8%;
+	width: 100%;
+}
+
+header {
+	background-color: #d8302d;
+}
+
+.main-area {
+	background: url(../img/main-bg.jpg);
+}
+
+.projects {
+	background: url(../img/projects-bg.png);
+}
+
+.testimonials {
+	background-color: #d8302d;
+}
+
+.contact {
+	background: url(../img/contact-bg.png);
+}
+
+.footer {
+	background-color: #05748c;
+}
+
+/***** END LAYOUT *****/
+
+
+/***** COMPONENTS *****/
+.top-navigation li {
+	display: inline-block;
+	-list-style-type: none;
+}
+
+.top-navigation a {
+	color: #fff;
+	font-family: "Lato";
+	font-style: 18px;
+}
+
+/***** END COMPONENTS *****/
