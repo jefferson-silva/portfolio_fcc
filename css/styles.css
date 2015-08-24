@@ -42,14 +42,15 @@ h2 {
 	margin-bottom: 30px;
 	text-align: center;
 }
+
+li {
+	list-style-type: none;
+}
 /***** END BASE *****/
 
 
 /***** LAYOUT *****/
-header,
-.footer,
-section
-{
+section {
 	padding: 60px 6%;
 	width: 100%;
 }
@@ -58,7 +59,8 @@ header {
 	background-color: #d8302d;
 }
 
-.header {
+.header,
+.footer {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -92,26 +94,29 @@ header {
 
 
 /***** COMPONENTS *****/
-.top-navigation {
+.top-navigation,
+.bottom-navigation {
 	display: inline-block;
 	float: right;
 	margin-right: 30px;
 	margin-top: 15px;
 }
 
-.top-navigation ul {
+.top-navigation ul,
+.bottom-navigation ul {
 	display: inline-block;
 	float: right;
 	margin: 0;
 	padding: 0;
 }
 
-.top-navigation li {
+.top-navigation li,
+.bottom-navigation li {
 	display: inline-block;
-	-list-style-type: none;
 }
 
-.top-navigation a {
+.top-navigation a,
+.bottom-navigation a {
 	color: #fff;
 	font-family: "Lato";
 	font-size: 18px;
