@@ -32,6 +32,7 @@ h2 {
 .section-title {
 	font-family: "Bebas Neue";
 	font-size: 36;
+	letter-spacing: 3px;
 	margin: 0;
 	text-align: center;
 }
@@ -191,6 +192,10 @@ header {
 	color: #fff;
 }
 
+.contact {
+	padding-bottom: 45px;
+}
+
 .contact .section-title {
 	color: #d8302d;
 }
@@ -214,5 +219,59 @@ header {
 .more-projects:hover {
 	color: #f08504;
 	text-decoration: none;
+}
+
+.contact-labels {
+	color: #fff;
+	font-family: Lato;
+	font-size: 24px;
+}
+
+.contact-links {
+	padding: 0;
+}
+
+.contact-links a {
+	color: #f08504;
+	font-family: Lato;
+	font-size: 24px;
+}
+
+.client-testimonial,
+.client-testimonial cite,
+.client-testimonial footer {
+	color: #fff;
+}
+
+.client-testimonial {
+	border-left: none;
+}
+
+.client-testimonial img {
+	border-radius: 50%;
+	float: left;
+	margin-right: 30px;
+}
+
+.client-testimonial p {
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 10px;
+	width: 70%;
+}
+
+.client-testimonial p:before {
+	background: url(../img/quotes.png);
+	content: ' ';
+	display: block;
+	float: left;
+	margin-right: 20px;
+	height: 29px;
+	width: 41px;
+
+}
+
+.client-testimonial footer:before {
+	margin-left: 60px;
 }
 /***** END COMPONENTS *****/
