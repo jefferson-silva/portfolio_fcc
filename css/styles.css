@@ -48,16 +48,19 @@ header,
 .footer,
 section
 {
-	padding: 0 8%;
+	padding: 60px 6%;
 	width: 100%;
 }
 
 header {
 	background-color: #d8302d;
+	padding: 0;
 }
 
 .main-area {
-	background: url(../img/main-bg.jpg);
+	background: url(../img/main-bg.jpg) center no-repeat;
+	background-size: cover;
+	height: 554px;
 }
 
 .projects {
@@ -80,6 +83,17 @@ header {
 
 
 /***** COMPONENTS *****/
+.top-navigation {
+	-height: 90px;
+}
+
+.top-navigation ul {
+	display: inline-block;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
 .top-navigation li {
 	display: inline-block;
 	-list-style-type: none;
@@ -90,5 +104,52 @@ header {
 	font-family: "Lato";
 	font-style: 18px;
 }
+
+.profile-picture {
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+
+/* SOCIAL LINKS */
+.social {
+	padding-top: 30px;
+}
+
+.social a {
+	color: #fff;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.social-twitter:before,
+.social-github:before,
+.social-fcc:before {
+	content: ' ';
+	display: inline-block;
+	height: 50px;
+	margin-right: 14px;
+	vertical-align: -16px;
+	width: 50px;
+
+}
+
+.social-github:before {
+	background-image: url(../img/github-icon.png);
+}
+
+.social-fcc:before {
+	background-image: url(../img/fcc-icon.png);
+	height: 45px;
+	vertical-align: -12px;
+	width: 66px;
+}
+
+.social-twitter:before {
+	background-image: url(../img/twitter-icon.png);
+}
+
+
+/* END SOCIAL LINKS */
 
 /***** END COMPONENTS *****/
