@@ -30,15 +30,17 @@ h2 {
 }
 
 .section-title {
-	color: red;
 	font-family: "Bebas Neue";
 	font-size: 36;
+	margin: 0;
+	text-align: center;
 }
 
 .section-title + p {
-	color: orange;
 	font-family: "Caviar Dreams";
-	font-style: 26px;
+	font-size: 26px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 /***** END BASE *****/
 
@@ -83,6 +85,9 @@ header {
 	background-color: #05748c;
 }
 
+.projects-spacer {
+	margin-bottom: 60px;
+}
 /***** END LAYOUT *****/
 
 
@@ -158,8 +163,51 @@ header {
 .social-twitter:before {
 	background-image: url(../img/twitter-icon.png);
 }
-
-
 /* END SOCIAL LINKS */
 
+
+.section-title {
+	font-size: 36px;
+}
+
+.projects .section-title {
+	color: #d8302d;
+}
+
+.projects .section-title + p{
+	color: #f08504;
+}
+
+.testimonials .section-title {
+	color: #f1b806;
+}
+
+.testimonials .section-title + p{
+	color: #fff;
+}
+
+.contact .section-title {
+	color: #d8302d;
+}
+
+.contact .section-title + p{
+	color: #05748c;
+}
+
+.more-projects {
+	color: #f08504;
+	display: block;
+	font-family: Lato;
+	font-size: 26px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 230px;
+}
+
+.more-projects:hover {
+	color: #f08504;
+	text-decoration: none;
+}
 /***** END COMPONENTS *****/
